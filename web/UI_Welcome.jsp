@@ -26,7 +26,8 @@
 
                 /*var selected_sem = sem.options[sem.selectedIndex].value;*/
                 /*location.href = url + "?sem="+sem.options[sem.selectedIndex].value;*/
-                location.href = "http://localhost:8084/Sign_Log/UI_Welcome.jsp?sem=" + sem.options[sem.selectedIndex].value;
+//                location.href = "http://localhost:8084/Sign_Log/UI_Welcome.jsp?sem=" + sem.options[sem.selectedIndex].value;
+                location.href = "./UI_Welcome.jsp?sem=" + sem.options[sem.selectedIndex].value;
             }
             function validation() {
                 var sub = document.getElementById('subj');

@@ -19,7 +19,7 @@
             function refresh() {
                 var type = document.getElementById("quetype");
 
-                var url1 = "http://localhost:8084/Sign_Log/Add_Question.jsp?type=" + type.options[type.selectedIndex].value;
+                var url1 = "./Add_Question.jsp?type=" + type.options[type.selectedIndex].value;
                 //var url2 = "&img=" + img.options[img.selectedIndex].value;
                 var url2 = "";
                 var url = url1.concat(url2);

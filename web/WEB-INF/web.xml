@@ -128,4 +128,7 @@
     <welcome-file-list>
         <welcome-file>Log_IN</welcome-file>
     </welcome-file-list>
+    <display-name>
+        Craft THE Exam
+    </display-name>
 </web-app>

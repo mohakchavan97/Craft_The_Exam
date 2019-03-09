@@ -84,7 +84,7 @@ public class Log_IN extends HttpServlet {
                     + "<td colspan=\"3\" align=\"center\"><input class=\"buttom\" name=\"login\" id=\"login\" value=\"LOG IN\" type=\"submit\"/></td>"
                     + "</tr>"
                     + "<tr>"
-                    + "<td height=\"80\" align=\"left\"><a href=\"\">Forgot Password</a></td>"
+                    + "<td height=\"80\" align=\"left\"><a href=\"\" onclick=\"return forpass()\">Forgot Password</a></td>"
                     + "<td align=\"right\"><a href=\"Sign_UP.jsp\">New User? Register NOW</a></td>"
                     + "</tr>"
                     + "</table>"

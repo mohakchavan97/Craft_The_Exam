@@ -65,7 +65,7 @@ public class temppdf extends HttpServlet {
             os.close();*/
             
             out.println("<html><body>"
-                    + "<a target=\"_blank\" href=\"http://localhost:8084/Sign_Log/example/"+session.getId()+".pdf\">Print</a>"
+                    + "<a target=\"_blank\" href=\"./example/"+session.getId()+".pdf\">Print</a>"
                     + "</body></html>");
         } 
     }

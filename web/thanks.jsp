@@ -44,7 +44,8 @@
                         <tr height="20">
                             <td  align="center" width="33%">
                                 <%
-                                    out.print("<a target=\"_blank\" href=\"http://localhost:8084/Sign_Log/example/" + session.getId() + ".pdf\">");
+//                                    out.print("<a target=\"_blank\" href=\"http://localhost:8084/Sign_Log/example/" + session.getId() + ".pdf\">");
+                                    out.print("<a target=\"_blank\" href=\"./example/" + session.getId() + ".pdf\">");
                                 %>
                                 <input class="buttom" name="print" id="print" value="Print" type="button"/></a></td>
                             <td width="33%" align="center">

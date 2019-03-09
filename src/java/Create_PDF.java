@@ -88,8 +88,7 @@ public class Create_PDF extends HttpServlet {
                         st = (Statement) con.createStatement();
 
                         //new File(config.getServletContext().getRealPath("/") + "/example/" + session.getId()).mkdir();
-
-                        String filePath = config.getServletContext().getRealPath("/") + "example\\" 
+                        String filePath = config.getServletContext().getRealPath("/") + "example\\"
                                 //+ session.getId() + "\\"
                                 + session.getId().trim()
                                 + ".pdf";
@@ -354,7 +353,7 @@ public class Create_PDF extends HttpServlet {
 
             cell = new PdfPCell(new Phrase(rs.getString(2), normalfont));
             cell.setColspan(4);
-            cell.setPadding(2);
+            cell.setPadding(6);
 
             if (rs.getString(8).contentEquals("YES")) {
                 cell.setBorderWidthBottom(0);
